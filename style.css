@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1f2226;
+    color: white;
+}
+
+.buttons {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.tablazat {
+    margin-top: 5%;
+    display: block;
+    place-content: center;
+}
+
+table {
+    align-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+td {
+    padding: 5%;
+    
+}
+
+tr {
+    padding: 0%;
+}
+
+.vonal {
+    border-right: 2px solid;
+    border-left: 2px solid;
+    color: rgba(96, 115, 143, 0.5);
+}
+
+.vonalalso {
+    border-bottom: 2px solid;
+    color: rgba(96, 115, 143, 0.5);
+
+}
+
+i.fas:hover {
+    color:  #294b7a;
+    transition: 0.4s;
+}
+
+i.fas {
+    color: #60738f;
+  
+}
+
+.buttons::after {
+    content: attr(data-tooltip);
+    visibility: hidden;
+    width: 130px;
+    background-color: #294b7a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 8%;
+    left: 47%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.buttons:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.cim {
+    color: #60738f;
+    font-size: 35px;
+    padding-bottom: 5%;
+    border-bottom: 1px solid;
+    align-content: center;
+    text-align: center;
+    padding-top: 0%;
+    
+}
+ li {
+     list-style: none;
+     padding-bottom: 20%;
+     font-size: 25px;
+ }
+
+ a:hover {
+    color: #60738f;
+    transition: 0.4s;
+ }
+
+ img {
+    width: 110px;
+    height: 150px;
+ }
+
+ .baloldalon {
+    display: inline;
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    
+ }
+
+ .jobboldalon {
+    display: inline;
+    position: absolute;
+    right: 30%;
+    top: 30%;
+ }
+
+ .kiskepek {
+     display: block;
+     margin: auto;
+     width: 100%;
+     padding-top: 1%;
+
+ }
+ img {
+     margin-left: 4%;
+     margin-right: 4%;
+ }
